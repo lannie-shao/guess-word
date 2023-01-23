@@ -1,0 +1,17 @@
+
+.btn{
+    background: hsl(200, 100%, 75%);  
+}
+
+.btn:hover:not(:disabled),
+.btn:focus:not(:disabled) {
+    background: none;  
+}
+
+.active{
+     background: green; 
+     color:white;
+}
+.inactive{
+    opacity:0.3;
+}
